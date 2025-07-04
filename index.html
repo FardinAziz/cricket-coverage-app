@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketHub - Live Cricket Scores & News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Criclytics</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#live-scores">Live Scores</a></li>
+                <li><a href="#fixtures">Fixtures</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#rankings">Rankings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>All about Cricket - Only Criclytics</h1>
+            <p>Get real-time scores, detailed stats, the latest news, and upcoming fixtures — all in one place.</p>
+        </section>
+
+        <section class="section" id="live-scores">
+            <div class="section-header">
+                <h2 class="section-title">Live Matches</h2>
+                <a href="#" class="view-all-btn">View All</a>
+            </div>
+            <div class="matches-grid" id="liveMatchesContainer">
+                <div class="match-card">
+                    <div class="match-header">
+                        <div class="match-status live">LIVE</div>
+                        <div>T20 World Cup</div>
+                    </div>
+                    <div class="teams">
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/ind.png" alt="IND" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">India</div>
+                                <div class="team-score">185/4 (18.2 overs)</div>
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/aus.png" alt="AUS" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">Australia</div>
+                                <div class="team-score">142/8 (20 overs)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-details">
+                        <span>Melbourne Cricket Ground</span>
+                        <span>India need 43 runs in 10 balls</span>
+                    </div>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <div class="match-status live">LIVE</div>
+                        <div>Test Match</div>
+                    </div>
+                    <div class="teams">
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/ind.png" alt="IND" class="flag-img"
+                                    onerror="this.style.display='none'; this.parentElement.innerHTML='🇮🇳'"></div>
+                            <div class="team-info">
+                                <div class="team-name">England</div>
+                                <div class="team-score">298/6 (78 overs)</div>
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/sa.png" alt="SA" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">South Africa</div>
+                                <div class="team-score">445 (118.4 overs)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-details">
+                        <span>Lord's Cricket Ground</span>
+                        <span>Day 3 - Session 2</span>
+                    </div>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <div class="match-status completed">COMPLETED</div>
+                        <div>ODI</div>
+                    </div>
+                    <div class="teams">
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/pak.png" alt="PAK" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">Pakistan</div>
+                                <div class="team-score">268/9 (50 overs)</div>
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/nz.png" alt="NZ" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">New Zealand</div>
+                                <div class="team-score">271/6 (48.3 overs)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-details">
+                        <span>Eden Park</span>
+                        <span>New Zealand won by 4 wickets</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="fixtures">
+            <div class="section-header">
+                <h2 class="section-title">Upcoming Fixtures</h2>
+                <a href="#" class="view-all-btn">View All</a>
+            </div>
+            <div class="fixtures-list" id="fixturesContainer">
+                <div class="fixture-card">
+                    <div class="fixture-header">
+                        <div class="fixture-date">Tomorrow, 10:30 AM</div>
+                        <div class="match-status upcoming">UPCOMING</div>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/ind.png" alt="IND" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">India</div>
+                            </div>
+                        </div>
+                        <div class="vs">vs</div>
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/wi.png" alt="WI" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">West Indies</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-details">
+                        <span>Wankhede Stadium, Mumbai</span>
+                        <span>T20I Series - Match 1</span>
+                    </div>
+                </div>
+
+                <div class="fixture-card">
+                    <div class="fixture-header">
+                        <div class="fixture-date">June 28, 2:00 PM</div>
+                        <div class="match-status upcoming">UPCOMING</div>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/aus.png" alt="AUS" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">Australia</div>
+                            </div>
+                        </div>
+                        <div class="vs">vs</div>
+                        <div class="team">
+                            <div class="team-flag"><img src="flags/eng.png" alt="ENG" class="flag-img"></div>
+                            <div class="team-info">
+                                <div class="team-name">England</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-details">
+                        <span>The Oval, London</span>
+                        <span>Test Match - Ashes Series</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rankings">
+            <div class="section-header">
+                <h2 class="section-title">ICC Rankings</h2>
+            </div>
+
+            <div class="ranking-controls">
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                </select>
+
+                <label for="format">Format:</label>
+                <select id="format">
+                    <option value="Test">Test</option>
+                    <option value="ODI" selected>ODI</option>
+                    <option value="T20I">T20I</option>
+                </select>
+
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="teams">Team Rankings</option>
+                    <option value="batting">Batting Rankings</option>
+                    <option value="bowling">Bowling Rankings</option>
+                    <option value="allrounder">All-Rounder Rankings</option>
+                </select>
+            </div>
+
+            <table class="ranking-table">
+                <thead>
+                    <tr id="ranking-headers"></tr>
+                </thead>
+                <tbody id="ranking-body"></tbody>
+            </table>
+        </section>
+
+
+        <section class="section" id="news">
+            <div class="section-header">
+                <h2 class="section-title">Latest Cricket News</h2>
+                <a href="#" class="view-all-btn">View All</a>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">📰 Cricket News</div>
+                    <div class="news-content">
+                        <h3 class="news-title">Rohit Sharma Breaks Another Record in T20 Cricket</h3>
+                        <p class="news-summary">The Indian captain has reached another milestone in his illustrious T20
+                            career, becoming the first player to achieve this feat in international cricket.</p>
+                        <div class="news-meta">
+                            <span>Cricket Times</span>
+                            <span>2 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">🏏 Match Report</div>
+                    <div class="news-content">
+                        <h3 class="news-title">Thrilling Finish in Melbourne as India Edges Australia</h3>
+                        <p class="news-summary">A nail-biting encounter at the MCG saw India secure victory in the final
+                            over, keeping their World Cup hopes alive with a spectacular performance.</p>
+                        <div class="news-meta">
+                            <span>Sports Central</span>
+                            <span>4 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">🏆 Tournament</div>
+                    <div class="news-content">
+                        <h3 class="news-title">World Cup 2025 Schedule Announced</h3>
+                        <p class="news-summary">The ICC has released the complete fixture list for the upcoming World
+                            Cup, featuring 48 matches across 10 venues in what promises to be the biggest tournament
+                            yet.</p>
+                        <div class="news-meta">
+                            <span>ICC Official</span>
+                            <span>6 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CricketHub. All rights reserved. | Stay updated with the latest cricket action.</p>
+    </footer>
+
+    <script>
+        // Navigation active state management
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                // Remove active class from all links
+                navLinks.forEach(nav => nav.classList.remove('active'));
+                // Add active class to clicked link
+                this.classList.add('active');
+            });
+        });
+
+
+
+
+
+
+        // Smooth scrolling for navigation links with active state update
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Update active navigation based on scroll position
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPos = window.scrollY + 100;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        let lastScrollTop = 0;
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                header.style.transform = 'translateY(0)';
+            }
+
+            lastScrollTop = scrollTop;
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = '0.1s';
+                    entry.target.style.animationFillMode = 'both';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards for animation
+        document.querySelectorAll('.match-card, .news-card, .fixture-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Simulate loading states
+        function showLoading(element) {
+            element.innerHTML = '<div class="loading"></div>';
+        }
+
+        function hideLoading(element, content) {
+            element.innerHTML = content;
+        }
+
+        // Add click handlers for view all buttons
+        document.querySelectorAll('.view-all-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const originalText = btn.textContent;
+                showLoading(btn);
+
+                setTimeout(() => {
+                    hideLoading(btn, originalText);
+                    // In a real app, this would navigate to the full page
+                    alert('This would navigate to the full page with all items.');
+                }, 1000);
+            });
+        });
+
+
+
+
+
+
+        // Cricket API Configuration
+        const API_KEY = '7ee9f7b7-2e7d-4530-8407-b02b2994ad95';
+        const BASE_URL = 'https://api.cricapi.com/v1';
+
+        // API Functions
+        async function fetchCurrentMatches() {
+            try {
+                const response = await fetch(`${BASE_URL}/currentMatches?apikey=${API_KEY}&offset=0`);
+                const data = await response.json();
+
+                if (data.status === 'success' && data.data) {
+                    // Filter for top teams only
+                    const topTeamMatches = data.data.filter(match => isTopTeamMatch(match));
+                    return topTeamMatches;
+                } else {
+                    console.error('Error fetching current matches:', data.reason || 'Unknown error');
+                    return [];
+                }
+            } catch (error) {
+                console.error('Error fetching current matches:', error);
+                return [];
+            }
+        }
+
+        async function fetchUpcomingMatches() {
+            try {
+                const response = await fetch(`${BASE_URL}/matches?apikey=${API_KEY}&offset=0`);
+                const data = await response.json();
+
+                if (data.status === 'success' && data.data) {
+                    // Filter for upcoming matches involving top teams only
+                    const upcomingMatches = data.data.filter(match => {
+                        const isUpcoming = match.status === 'Match not started' ||
+                            match.dateTimeGMT > new Date().toISOString();
+                        const isTopTeam = isTopTeamMatch(match);
+                        return isUpcoming && isTopTeam;
+                    });
+                    return upcomingMatches;
+                } else {
+                    console.error('Error fetching matches:', data.reason || 'Unknown error');
+                    return [];
+                }
+            } catch (error) {
+                console.error('Error fetching upcoming matches:', error);
+                return [];
+            }
+        }
+
+        // Top Cricket Teams Configuration
+        const TOP_TEAMS = [
+            'India', 'Australia', 'England', 'Pakistan', 'New Zealand',
+            'South Africa', 'Bangladesh', 'Sri Lanka', 'West Indies',
+            'Afghanistan', 'Ireland'
+        ];
+
+        // Helper Functions
+        function isTopTeamMatch(match) {
+            if (!match.teams || match.teams.length < 2) return false;
+
+            return match.teams.some(team =>
+                TOP_TEAMS.some(topTeam =>
+                    team.toLowerCase().includes(topTeam.toLowerCase()) ||
+                    topTeam.toLowerCase().includes(team.toLowerCase())
+                )
+            );
+        }
+
+        function getMatchStatus(match) {
+            if (match.matchEnded) return 'completed';
+            if (match.matchStarted) return 'live';
+            return 'upcoming';
+        }
+
+        function formatTeamScore(team, match) {
+            if (!match.score || match.score.length === 0) return '';
+
+            const teamScore = match.score.find(s => s.inning.includes(team));
+            if (teamScore) {
+                return `${teamScore.r}/${teamScore.w} (${teamScore.o} overs)`;
+            }
+            return '';
+        }
+
+        function getCountryCodeForMatches(teamName) {
+            const teamCodes = {
+                'India': 'ind',
+                'Australia': 'aus',
+                'England': 'eng',
+                'Pakistan': 'pak',
+                'New Zealand': 'nz',
+                'South Africa': 'sa',
+                'Bangladesh': 'ban',
+                'Sri Lanka': 'sl',
+                'West Indies': 'wi',
+                'Afghanistan': 'afg',
+                'Ireland': 'ire',
+                'Scotland': 'sco',
+                'Netherlands': 'ned',
+                'Zimbabwe': 'zim',
+                'Nepal': 'nep',
+                'USA': 'usa'
+            };
+
+            // Try to find exact match first
+            if (teamCodes[teamName]) return teamCodes[teamName];
+
+            // Try to find partial match
+            for (const [fullName, code] of Object.entries(teamCodes)) {
+                if (teamName.toLowerCase().includes(fullName.toLowerCase()) ||
+                    fullName.toLowerCase().includes(teamName.toLowerCase())) {
+                    return code;
+                }
+            }
+
+            return 'default'; // fallback
+        }
+
+        function getFlagHtml(countryCode) {
+            // Convert to lowercase since your flag files use lowercase names
+            const lowerCode = countryCode.toLowerCase();
+
+            return `<img src="flags/${lowerCode}.png" alt="${countryCode}" class="flag-img" onerror="this.style.display='none'; this.parentElement.innerHTML='🏏'">`;
+        }
+
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const tomorrow = new Date(now);
+            tomorrow.setDate(now.getDate() + 1);
+
+            if (date.toDateString() === now.toDateString()) {
+                return `Today, ${date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`;
+            } else if (date.toDateString() === tomorrow.toDateString()) {
+                return `Tomorrow, ${date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`;
+            } else {
+                return `${date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}, ${date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`;
+            }
+        }
+
+        // Render Functions
+        function renderLiveMatches(matches) {
+            const container = document.getElementById('liveMatchesContainer');
+
+            if (!matches || matches.length === 0) {
+                container.innerHTML = '<p>No live matches between top teams currently available.</p>';
+                return;
+            }
+
+            container.innerHTML = matches.map(match => {
+                const team1Code = getCountryCodeForMatches(match.teamInfo.team1.name);
+                const team2Code = getCountryCodeForMatches(match.teamInfo.team2.name);
+
+                return `
+            <div class="match-card">
+                <div class="match-header">
+                    <div class="match-status completed">COMPLETED</div>
+                    <div>${match.matchType || 'Cricket Match'}</div>
+                </div>
+                <div class="teams">
+                    <div class="team">
+                        <div class="team-flag">${getFlagHtml(team1Code)}</div>
+                        <div class="team-info">
+                            <div class="team-name">${match.teamInfo.team1.name}</div>
+                            <div class="team-score">${match.score.team1Score}</div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-flag">${getFlagHtml(team2Code)}</div>
+                        <div class="team-info">
+                            <div class="team-name">${match.teamInfo.team2.name}</div>
+                            <div class="team-score">${match.score.team2Score}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-details">
+                    <span>${match.venue || 'Cricket Ground'}</span>
+                    <span>${match.status || 'Match completed'}</span>
+                </div>
+            </div>
+        `;
+            }).join('');
+        }
+
+        function renderUpcomingFixtures(matches) {
+            const container = document.getElementById('fixturesContainer');
+
+            if (!matches || matches.length === 0) {
+                container.innerHTML = '<p>No upcoming fixtures between top teams available.</p>';
+                return;
+            }
+
+            container.innerHTML = matches.map(match => {
+                const team1Code = getCountryCodeForMatches(match.teamInfo.team1.name);
+                const team2Code = getCountryCodeForMatches(match.teamInfo.team2.name);
+                return `
+            <div class="fixture-card">
+                <div class="fixture-header">
+                    <div class="fixture-date">${formatDate(match.dateTimeGMT)}</div>
+                    <div class="match-status upcoming">UPCOMING</div>
+                </div>
+                <div class="fixture-teams">
+                    <div class="team">
+                        <div class="team-flag">${getFlagHtml(team1Code)}</div>
+                        <div class="team-info">
+                            <div class="team-name">${match.teamInfo.team1.name}</div>
+                        </div>
+                    </div>
+                    <div class="vs">vs</div>
+                    <div class="team">
+                        <div class="team-flag">${getFlagHtml(team2Code)}</div>
+                        <div class="team-info">
+                            <div class="team-name">${match.teamInfo.team2.name}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-details">
+                    <span>${match.venue || 'Cricket Ground'}</span>
+                    <span>${match.matchType || 'Cricket Match'}</span>
+                </div>
+            </div>
+        `;
+            }).join('');
+        }
+
+        // Initialize and Load Data
+
+        const useMockData = true; // 🔁 Set this to false when using the real API
+
+        async function loadCricketData() {
+            try {
+                const liveContainer = document.getElementById('liveMatchesContainer');
+                const fixtureContainer = document.getElementById('fixturesContainer');
+
+                liveContainer.innerHTML = '<div class="loading"></div>';
+                fixtureContainer.innerHTML = '<div class="loading"></div>';
+
+                // Mock data (replace with your actual data)
+                const mockLiveMatches = [
+                    {
+                        teamInfo: {
+                            team1: { name: "India", shortName: "IND" },
+                            team2: { name: "Australia", shortName: "AUS" }
+                        },
+                        score: {
+                            team1Score: "198/3 (20)",
+                            team2Score: "174/9 (20)"
+                        },
+                        venue: "Wankhede Stadium",
+                        matchType: "T20",
+                        status: "India won by 24 runs"
+                    },
+                    {
+                        teamInfo: {
+                            team1: { name: "England", shortName: "ENG" },
+                            team2: { name: "Pakistan", shortName: "PAK" }
+                        },
+                        score: {
+                            team1Score: "145/6 (18)",
+                            team2Score: "142/10 (19.4)"
+                        },
+                        venue: "Lord's",
+                        matchType: "T20",
+                        status: "England won by 3 wickets"
+                    }
+                ];
+
+                const mockUpcomingMatches = [
+                    {
+                        teamInfo: {
+                            team1: { name: "South Africa", shortName: "SA" },
+                            team2: { name: "New Zealand", shortName: "NZ" }
+                        },
+                        dateTimeGMT: "2025-07-05T14:00:00Z",
+                        venue: "SuperSport Park",
+                        matchType: "ODI"
+                    },
+                    {
+                        teamInfo: {
+                            team1: { name: "Bangladesh", shortName: "BAN" },
+                            team2: { name: "West Indies", shortName: "WI" }
+                        },
+                        dateTimeGMT: "2025-07-06T10:30:00Z",
+                        venue: "Sher-e-Bangla Stadium",
+                        matchType: "ODI"
+                    }
+                ];
+
+                renderLiveMatches(mockLiveMatches);
+                renderUpcomingFixtures(mockUpcomingMatches);
+            } catch (error) {
+                console.error("Error loading cricket data:", error);
+                document.getElementById("liveMatchesContainer").innerHTML = "<p>Error loading live matches.</p>";
+                document.getElementById("fixturesContainer").innerHTML = "<p>Error loading fixtures.</p>";
+            }
+        }
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function () {
+            loadCricketData();
+        });
+
+        function getCountryCodeForRankings(teamName) {
+            const codes = {
+                "India": "ind", "Australia": "aus", "England": "eng", "Pakistan": "pak",
+                "New Zealand": "nz", "South Africa": "sa", "Bangladesh": "ban",
+                "Sri Lanka": "sl", "West Indies": "wi", "Afghanistan": "afg", "Ireland": "ire",
+                "Zimbabwe": "zim", "Nepal": "nep", "Scotland": "sco", "Netherlands": "ned",
+                "USA": "usa"
+            };
+
+            for (let key in codes) {
+                if (teamName.toLowerCase().includes(key.toLowerCase())) return codes[key];
+            }
+
+            return "default"; // fallback
+        }
+
+        function getFlagImg(teamName, size = 20) {
+            const code = getCountryCodeForRankings(teamName);
+            return `<img src="flags/${code}.png" alt="${teamName}" style="height:${size}px;vertical-align:middle;margin-right:5px;" onerror="this.style.display='none';">`;
+        }
+
+        async function loadRankings() {
+            const res = await fetch('icc_rankings.json');
+            const data = await res.json();
+
+            const genderSelect = document.getElementById('gender');
+            const formatSelect = document.getElementById('format');
+            const categorySelect = document.getElementById('category');
+
+            function render() {
+                const gender = genderSelect.value;
+                const format = formatSelect.value;
+                const category = categorySelect.value;
+
+                const list = data[gender]?.[category]?.[format];
+                const headers = document.getElementById('ranking-headers');
+                const body = document.getElementById('ranking-body');
+
+                if (!list) {
+                    headers.innerHTML = '';
+                    body.innerHTML = '<tr><td colspan="4">No data available.</td></tr>';
+                    return;
+                }
+
+                headers.innerHTML = category === 'teams'
+                    ? '<th>Rank</th><th>Team</th><th>Rating</th>'
+                    : '<th>Rank</th><th>Player</th><th>Country</th><th>Rating</th>';
+
+                body.innerHTML = list.map(item => {
+                    if (category === 'teams') {
+                        return `<tr>
+            <td>${item.rank}</td>
+            <td>${getFlagImg(item.team)}${item.team}</td>
+            <td>${item.rating}</td>
+          </tr>`;
+                    } else {
+                        return `<tr>
+            <td>${item.rank}</td>
+            <td>${item.player}</td>
+            <td>${getFlagImg(item.team)}${item.team}</td>
+            <td>${item.rating}</td>
+          </tr>`;
+                    }
+                }).join('');
+            }
+
+            genderSelect.addEventListener('change', render);
+            formatSelect.addEventListener('change', render);
+            categorySelect.addEventListener('change', render);
+
+            render();
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            loadCricketData();
+            loadRankings();
+        });
+
+    </script>
+</body>

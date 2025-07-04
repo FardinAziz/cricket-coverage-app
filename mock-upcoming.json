@@ -1,0 +1,32 @@
+[
+    {
+        "teamInfo": {
+            "team1": {
+                "name": "South Africa",
+                "shortName": "SA"
+            },
+            "team2": {
+                "name": "New Zealand",
+                "shortName": "NZ"
+            }
+        },
+        "dateTimeGMT": "2025-07-05T14:00:00Z",
+        "venue": "SuperSport Park",
+        "matchType": "ODI"
+    },
+    {
+        "teamInfo": {
+            "team1": {
+                "name": "Bangladesh",
+                "shortName": "BAN"
+            },
+            "team2": {
+                "name": "Sri Lanka",
+                "shortName": "SL"
+            }
+        },
+        "dateTimeGMT": "2025-07-06T10:30:00Z",
+        "venue": "Sher-e-Bangla Stadium",
+        "matchType": "ODI"
+    }
+]

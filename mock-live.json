@@ -1,0 +1,40 @@
+[
+    {
+        "teamInfo": {
+            "team1": {
+                "name": "India",
+                "shortName": "IND"
+            },
+            "team2": {
+                "name": "Australia",
+                "shortName": "AUS"
+            }
+        },
+        "score": {
+            "team1Score": "198/3 (20)",
+            "team2Score": "174/9 (20)"
+        },
+        "venue": "Wankhede Stadium",
+        "matchType": "T20",
+        "status": "India won by 24 runs"
+    },
+    {
+        "teamInfo": {
+            "team1": {
+                "name": "England",
+                "shortName": "ENG"
+            },
+            "team2": {
+                "name": "Pakistan",
+                "shortName": "PAK"
+            }
+        },
+        "score": {
+            "team1Score": "145/6 (18)",
+            "team2Score": "142/10 (19.4)"
+        },
+        "venue": "Lord's",
+        "matchType": "T20",
+        "status": "England won by 3 wickets"
+    }
+]

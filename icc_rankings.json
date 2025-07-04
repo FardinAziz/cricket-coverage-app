@@ -1,0 +1,543 @@
+{
+    "men": {
+        "teams": {
+            "Test": [
+                {
+                    "rank": 1,
+                    "team": "Australia",
+                    "rating": 123
+                },
+                {
+                    "rank": 2,
+                    "team": "South Africa",
+                    "rating": 114
+                },
+                {
+                    "rank": 3,
+                    "team": "England",
+                    "rating": 113
+                },
+                {
+                    "rank": 4,
+                    "team": "India",
+                    "rating": 105
+                },
+                {
+                    "rank": 5,
+                    "team": "New Zealand",
+                    "rating": 95
+                }
+            ],
+            "ODI": [
+                {
+                    "rank": 1,
+                    "team": "India",
+                    "rating": 124
+                },
+                {
+                    "rank": 2,
+                    "team": "New Zealand",
+                    "rating": 109
+                },
+                {
+                    "rank": 3,
+                    "team": "Australia",
+                    "rating": 109
+                },
+                {
+                    "rank": 4,
+                    "team": "Sri Lanka",
+                    "rating": 104
+                },
+                {
+                    "rank": 5,
+                    "team": "Pakistan",
+                    "rating": 104
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "team": "India",
+                    "rating": 271
+                },
+                {
+                    "rank": 2,
+                    "team": "Australia",
+                    "rating": 262
+                },
+                {
+                    "rank": 3,
+                    "team": "England",
+                    "rating": 257
+                },
+                {
+                    "rank": 4,
+                    "team": "New Zealand",
+                    "rating": 249
+                },
+                {
+                    "rank": 5,
+                    "team": "South Africa",
+                    "rating": 245
+                }
+            ]
+        },
+        "batting": {
+            "Test": [
+                {
+                    "rank": 1,
+                    "player": "Joe Root",
+                    "team": "England",
+                    "rating": 903
+                },
+                {
+                    "rank": 2,
+                    "player": "Yashasvi Jaiswal",
+                    "team": "India",
+                    "rating": 825
+                },
+                {
+                    "rank": 3,
+                    "player": "Kane Williamson",
+                    "team": "New Zealand",
+                    "rating": 804
+                }
+            ],
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Babar Azam",
+                    "team": "Pakistan",
+                    "rating": 809
+                },
+                {
+                    "rank": 2,
+                    "player": "Rohit Sharma",
+                    "team": "India",
+                    "rating": 765
+                },
+                {
+                    "rank": 3,
+                    "player": "Shubman Gill",
+                    "team": "India",
+                    "rating": 763
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Travis Head",
+                    "team": "Australia",
+                    "rating": 855
+                },
+                {
+                    "rank": 2,
+                    "player": "Phil Salt",
+                    "team": "England",
+                    "rating": 828
+                },
+                {
+                    "rank": 3,
+                    "player": "Tilak Varma",
+                    "team": "India",
+                    "rating": 806
+                }
+            ]
+        },
+        "bowling": {
+            "Test": [
+                {
+                    "rank": 1,
+                    "player": "Jasprit Bumrah",
+                    "team": "India",
+                    "rating": 883
+                },
+                {
+                    "rank": 2,
+                    "player": "Kagiso Rabada",
+                    "team": "South Africa",
+                    "rating": 872
+                }
+            ],
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Rashid Khan",
+                    "team": "Afghanistan",
+                    "rating": 687
+                },
+                {
+                    "rank": 2,
+                    "player": "Shaheen Afridi",
+                    "team": "Pakistan",
+                    "rating": 682
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Adil Rashid",
+                    "team": "England",
+                    "rating": 701
+                },
+                {
+                    "rank": 2,
+                    "player": "Wanindu Hasaranga",
+                    "team": "Sri Lanka",
+                    "rating": 696
+                }
+            ]
+        },
+        "allrounder": {
+            "Test": [
+                {
+                    "rank": 1,
+                    "player": "Ravindra Jadeja",
+                    "team": "India",
+                    "rating": 423
+                },
+                {
+                    "rank": 2,
+                    "player": "Ravichandran Ashwin",
+                    "team": "India",
+                    "rating": 290
+                }
+            ],
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Mohammad Nabi",
+                    "team": "Afghanistan",
+                    "rating": 318
+                },
+                {
+                    "rank": 2,
+                    "player": "Sikandar Raza",
+                    "team": "Zimbabwe",
+                    "rating": 291
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Hardik Pandya",
+                    "team": "India",
+                    "rating": 244
+                },
+                {
+                    "rank": 2,
+                    "player": "Dipendra Singh Airee",
+                    "team": "Nepal",
+                    "rating": 231
+                }
+            ]
+        }
+    },
+    "women": {
+        "teams": {
+            "ODI": [
+                {
+                    "rank": 1,
+                    "team": "Australia",
+                    "rating": 163
+                },
+                {
+                    "rank": 2,
+                    "team": "England",
+                    "rating": 134
+                },
+                {
+                    "rank": 3,
+                    "team": "South Africa",
+                    "rating": 128
+                },
+                {
+                    "rank": 4,
+                    "team": "India",
+                    "rating": 121
+                },
+                {
+                    "rank": 5,
+                    "team": "New Zealand",
+                    "rating": 119
+                },
+                {
+                    "rank": 6,
+                    "team": "West Indies",
+                    "rating": 85
+                },
+                {
+                    "rank": 7,
+                    "team": "Bangladesh",
+                    "rating": 79
+                },
+                {
+                    "rank": 8,
+                    "team": "Sri Lanka",
+                    "rating": 74
+                },
+                {
+                    "rank": 9,
+                    "team": "Pakistan",
+                    "rating": 72
+                },
+                {
+                    "rank": 10,
+                    "team": "Ireland",
+                    "rating": 40
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "team": "Australia",
+                    "rating": 292
+                },
+                {
+                    "rank": 2,
+                    "team": "England",
+                    "rating": 281
+                },
+                {
+                    "rank": 3,
+                    "team": "India",
+                    "rating": 266
+                },
+                {
+                    "rank": 4,
+                    "team": "New Zealand",
+                    "rating": 255
+                },
+                {
+                    "rank": 5,
+                    "team": "South Africa",
+                    "rating": 244
+                },
+                {
+                    "rank": 6,
+                    "team": "West Indies",
+                    "rating": 230
+                },
+                {
+                    "rank": 7,
+                    "team": "Sri Lanka",
+                    "rating": 213
+                },
+                {
+                    "rank": 8,
+                    "team": "Bangladesh",
+                    "rating": 200
+                },
+                {
+                    "rank": 9,
+                    "team": "Pakistan",
+                    "rating": 195
+                },
+                {
+                    "rank": 10,
+                    "team": "Ireland",
+                    "rating": 176
+                }
+            ]
+        },
+        "batting": {
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Chamari Athapaththu",
+                    "team": "Sri Lanka",
+                    "rating": 758
+                },
+                {
+                    "rank": 2,
+                    "player": "Beth Mooney",
+                    "team": "Australia",
+                    "rating": 749
+                },
+                {
+                    "rank": 3,
+                    "player": "Laura Wolvaardt",
+                    "team": "South Africa",
+                    "rating": 738
+                },
+                {
+                    "rank": 4,
+                    "player": "Harmanpreet Kaur",
+                    "team": "India",
+                    "rating": 713
+                },
+                {
+                    "rank": 5,
+                    "player": "Meg Lanning",
+                    "team": "Australia",
+                    "rating": 700
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Chamari Athapaththu",
+                    "team": "Sri Lanka",
+                    "rating": 777
+                },
+                {
+                    "rank": 2,
+                    "player": "Beth Mooney",
+                    "team": "Australia",
+                    "rating": 765
+                },
+                {
+                    "rank": 3,
+                    "player": "Smriti Mandhana",
+                    "team": "India",
+                    "rating": 738
+                },
+                {
+                    "rank": 4,
+                    "player": "Laura Wolvaardt",
+                    "team": "South Africa",
+                    "rating": 712
+                },
+                {
+                    "rank": 5,
+                    "player": "Tahlia McGrath",
+                    "team": "Australia",
+                    "rating": 709
+                }
+            ]
+        },
+        "bowling": {
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Sophie Ecclestone",
+                    "team": "England",
+                    "rating": 773
+                },
+                {
+                    "rank": 2,
+                    "player": "Hayley Matthews",
+                    "team": "West Indies",
+                    "rating": 718
+                },
+                {
+                    "rank": 3,
+                    "player": "Shabnim Ismail",
+                    "team": "South Africa",
+                    "rating": 716
+                },
+                {
+                    "rank": 4,
+                    "player": "Jess Jonassen",
+                    "team": "Australia",
+                    "rating": 698
+                },
+                {
+                    "rank": 5,
+                    "player": "Rajeshwari Gayakwad",
+                    "team": "India",
+                    "rating": 693
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Sophie Ecclestone",
+                    "team": "England",
+                    "rating": 802
+                },
+                {
+                    "rank": 2,
+                    "player": "Deepti Sharma",
+                    "team": "India",
+                    "rating": 726
+                },
+                {
+                    "rank": 3,
+                    "player": "Sarah Glenn",
+                    "team": "England",
+                    "rating": 703
+                },
+                {
+                    "rank": 4,
+                    "player": "Hayley Matthews",
+                    "team": "West Indies",
+                    "rating": 692
+                },
+                {
+                    "rank": 5,
+                    "player": "Nadine de Klerk",
+                    "team": "South Africa",
+                    "rating": 681
+                }
+            ]
+        },
+        "allrounder": {
+            "ODI": [
+                {
+                    "rank": 1,
+                    "player": "Hayley Matthews",
+                    "team": "West Indies",
+                    "rating": 506
+                },
+                {
+                    "rank": 2,
+                    "player": "Natalie Sciver-Brunt",
+                    "team": "England",
+                    "rating": 417
+                },
+                {
+                    "rank": 3,
+                    "player": "Ellyse Perry",
+                    "team": "Australia",
+                    "rating": 389
+                },
+                {
+                    "rank": 4,
+                    "player": "Deepti Sharma",
+                    "team": "India",
+                    "rating": 379
+                },
+                {
+                    "rank": 5,
+                    "player": "Amelia Kerr",
+                    "team": "New Zealand",
+                    "rating": 365
+                }
+            ],
+            "T20I": [
+                {
+                    "rank": 1,
+                    "player": "Hayley Matthews",
+                    "team": "West Indies",
+                    "rating": 504
+                },
+                {
+                    "rank": 2,
+                    "player": "Deepti Sharma",
+                    "team": "India",
+                    "rating": 407
+                },
+                {
+                    "rank": 3,
+                    "player": "Ashleigh Gardner",
+                    "team": "Australia",
+                    "rating": 395
+                },
+                {
+                    "rank": 4,
+                    "player": "Amelia Kerr",
+                    "team": "New Zealand",
+                    "rating": 371
+                },
+                {
+                    "rank": 5,
+                    "player": "Nadine de Klerk",
+                    "team": "South Africa",
+                    "rating": 358
+                }
+            ]
+        }
+    }
+}
